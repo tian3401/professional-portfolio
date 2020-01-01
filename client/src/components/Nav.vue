@@ -2,7 +2,7 @@
   <div id="main-nav">
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <router-link class="nav-link active" to="/">Home</router-link>
+        <router-link class="nav-link" to="/">Home</router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/full-portfolio">
@@ -12,9 +12,9 @@
       <li class="nav-item">
         <router-link class="nav-link" to="/resume">Resume</router-link>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <router-link class="nav-link" to="/contact-me">Contact me</router-link>
-      </li>     
+      </li>      -->
     </ul>
   </div>
 </template>
@@ -36,5 +36,14 @@ export default {
 a {
   color: #05386b
 }
+
+.router-link-exact-active {
+  background-color: #08AEEA;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+}
+
+
 
 </style>

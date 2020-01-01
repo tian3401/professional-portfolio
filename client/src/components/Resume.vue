@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col">
         <h1 class="title">Resume</h1>
-        <br><br>
+        <p> <i class="material-icons">email</i> matt.chen3401@yahoo.com</p>
       </div>
     </div>
     <div class="row">
@@ -185,8 +185,11 @@ li {
 }
 
 .title {
-  color: #08AEEA;
-  
+  color: #08AEEA; 
+}
+
+div i {
+  margin-top: 1%;
 }
 
 </style>

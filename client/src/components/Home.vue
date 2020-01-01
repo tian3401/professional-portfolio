@@ -15,6 +15,8 @@
           <img id="profile-image" src="..//assets/SVG/profile_image.jpg" alt="profile-image">
         </div>
         <div class="col-sm-4" id="social-networks">
+          <p>More About Me Here</p>
+          <br>
           <a href="https://www.linkedin.com/in/matt-chen-4166802b?trk=profile-badge" ><img id="linkedin-logo" src="..//assets/SVG/LI-In-Bug.png" alt="linkedin-logo"></a>
           <a href="https://www.github.com/tian3401"><img id="github-logo" src="..//assets/SVG/GitHub_Logo.png" alt="linkedin-logo"></a>
           <a href="https://medium.com/@tian3401"><img id="medium-logo" src="..//assets/SVG/Monogram.png" alt="medium-logo"></a>
@@ -214,7 +216,16 @@ img {
 
 #social-networks {
   text-align: left;
-  padding-top: 5%;
+  padding-top: 3%;
+  
+}
+
+#social-networks p {
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #8ee4af;
+  display: inline;
 }
 
 #linkedin-logo {

@@ -23,7 +23,7 @@ export default new Router({
       path: '/full-portfolio',
       name: 'full portfolio',
       components: {
-        Portfolio: Portfolio,
+        default: Portfolio,
         Nav: Nav
         
       }
