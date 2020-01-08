@@ -4,7 +4,8 @@ import Home from '@/components/Home'
 import Nav from '@/components/Nav'
 import Portfolio from '@/components/FullPortfolio'
 import Resume from '@/components/Resume'
-import Contact from '@/components/Contact'
+import Moyo from '@/components/Moyo'
+import MiningGame from '@/components/MiningGame'
 
 Vue.use(Router)
 
@@ -38,10 +39,19 @@ export default new Router({
       }
     },
     {
-      path: '/contact-me',
-      name: 'contact me',
+      path: '/moyo',
+      name: 'moyo',
       components: {
-        default: Contact,
+        default: Moyo,
+        Nav: Nav
+        
+      }
+    },
+    {
+      path: '/mining-game',
+      name: 'mining-game',
+      components: {
+        default: MiningGame,
         Nav: Nav
         
       }

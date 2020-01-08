@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-8" id="description">        
-        <p id="description-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+        <p id="description-text">"Unlike most developers and software engineers, I found my passion for programming at a later stage in life. Although my career path as a developer has not been a direct one, the journey that I have travelled isn't one I would trade with anyone else. This journey has shaped my approach to programming - a simple but creative style and perspective. Simply put, creating and innovating is what I love to do."</p>
       </div>
       <div class="col-sm-2"></div>
     </div>
@@ -47,14 +47,15 @@
         <div class="home-works">
       <div class="row current-works">
         <div class="col-sm-9 card">
-          <h1 class="card-title" style="color: black">another project</h1>
+          <h1 class="card-title" style="color: black">Mining Game in progress</h1>
           <div class="card-body">
+            <img id="mining game" src="@/assets/miningGame.png" alt="miningGame-code">
           </div>
         </div>
         <div class="col-sm-3">
-            <button class="hashtag" type="button" disabled>#tag1</button>
-            <button class="hashtag" type="button" disabled>#tag2</button>
-            <button class="hashtag" type="button" disabled>#tag3</button>
+            <button class="hashtag" type="button" disabled>#Cryptocurrency</button>
+            <button class="hashtag" type="button" disabled>#Blockchain</button>
+            <button class="hashtag" type="button" disabled>#Node</button>
             <button id="special-button" type="button" class="btn">Learn More ➜</button>
         </div>
       </div>
