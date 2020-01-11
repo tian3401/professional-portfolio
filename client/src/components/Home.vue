@@ -47,9 +47,9 @@
         <div class="home-works">
       <div class="row current-works">
         <div class="col-sm-9 card">
-          <h1 class="card-title" style="color: black">Mining Game in progress</h1>
+          <h1 class="card-title" style="color: black">Mining Game - in progress</h1>
           <div class="card-body">
-            <img id="mining game" src="@/assets/miningGame.png" alt="miningGame-code">
+            <img id="mining-game" src="@/assets/miningGame.png" alt="miningGame-code">
           </div>
         </div>
         <div class="col-sm-3">
@@ -155,6 +155,8 @@ img {
 #special-button {
   background-color: #8ee4af;
   color: #05386b;
+  display: block;
+  margin: auto;
   margin-top: 10%;
 }
 
@@ -249,4 +251,8 @@ img {
   margin: auto;
 }
 
+#mining-game {
+  width: 75%;
+  height: auto;
+}
 </style>
