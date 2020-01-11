@@ -3,7 +3,7 @@
     <h1 class="title">moyo</h1>
     <br>
     <br>
-    <h1>The Purpose of the moyo Project</h1>
+    <h1>The Purpose Project</h1>
     <div class="row mt-5 bg-white mb-4">
       <div
         class="col-sm-6"
@@ -11,13 +11,7 @@
       ></div>
       <div class="col-md-6">
         <p class="d-flex align-self-center px-5">
-          Moyo is setting out to be the world’s leading accessible financial education platform, with emphasis on accessible. As such, personality is by necessity at the heart of the Moyo brand.
-          <br>
-          <br>The financial world can be effectively characterized as a black box for those not already inducted; but the primary tenet behind the Moyo model and, by extension, its brand identity, is “It doesn’t have to be.”
-          <br>
-          <br>The greatest pain point hindering the financial empowerment of the vast majority of today’s generations is barrier to entry to financial education--including financial self-education. The cause of the pedagogical bottleneck comes down to an inappropriately-scaling degree of variable complexity. To put it in simpler terms--in Moyo’s terms--the learning curve scales too quickly.
-          <br>
-          <br>The solution? Storytelling
+          The motivation behind moyo is to reimagine the financial experience for the end users. Using stories and gameplay, moyo presents finance in a simplified and applicable way. This approach leverages the intrigue of a story in explaining concepts such as time value of money and compound interest and the challenge of games to help users gain exposure to investing, budgetting, and other healthy financial habits. 
         </p>
       </div>
     </div>
@@ -142,11 +136,12 @@
 </template>
 
 <style scoped>
-.page7 .row,
-.page7 .page-inner > h1 {
-  box-shadow: 0 5px 5px #1e1e1e9c;
+.row,
+.page-inner > h1 {
+  box-shadow: 0 2px 2px #1e1e1e9c;
+  border: 1px solid rgb(233, 233, 233);
 }
-.page7 .page-inner .row {
+.page-inner .row {
   min-height: 60vh;
 }
 
