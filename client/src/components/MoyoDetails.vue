@@ -2,6 +2,9 @@
   <div class="container">
     <h1 class="title">moyo</h1>
     <br>
+    <button type="button" class="btn" id="special-button">
+    <a href="https://themoyoproject.com" target="_blank">Visit Official Website ➜</a>
+    </button>
     <br>
     <h1>The Purpose Project</h1>
     <div class="row mt-5 bg-white mb-4">
@@ -9,9 +12,9 @@
         class="col-sm-6"
         :style="{ 'min-height': '400px', 'background-image': 'url(\'' + require('@/assets/img/barista_creative_notes.png') + '\')', 'background-size': 'cover', 'background-repeat': 'no-repeat', 'background-position': 'left' }"
       ></div>
-      <div class="col-md-6">
-        <p class="d-flex align-self-center px-5">
-          The motivation behind moyo is to reimagine the financial experience for the end users. Using stories and gameplay, moyo presents finance in a simplified and applicable way. This approach leverages the framework of a story in explaining concepts such as time value of money and compound interest and the challenge of games to help users gain exposure to investing, budgetting, and other healthy financial habits. 
+      <div class="col-12 col-lg-6 p-5 d-flex">
+        <p class="px-5 d-flex align-self-center">
+          The motivation behind moyo is to reimagine the financial experience for the end users. Using stories and gameplay, moyo presents finance in a simplified and applicable way. This approach leverages the intrigue of a story in explaining concepts such as time value of money and compound interest and the challenge of games to help users gain exposure to investing, budgetting, and other healthy financial habits. 
         </p>
       </div>
     </div>
@@ -156,5 +159,12 @@ h1 {
 
 .emphasis-text {
   font-size: 24px;
+}
+
+#special-button {
+  background-color: #8ee4af;
+  color: #05386b;
+  display: block;
+  margin: auto;
 }
 </style>

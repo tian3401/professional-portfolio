@@ -40,7 +40,9 @@
             <button class="hashtag" type="button" disabled>#Investing</button>
             <button class="hashtag" type="button" disabled>#Amazon EC2</button>
             <button class="hashtag" type="button" disabled>#Vue</button>
-            <button id="special-button" type="button" class="btn">Learn More ➜</button>
+            <button type="button" class="btn" id="special-button">
+            <router-link to="/moyo_details">Learn More ➜</router-link>
+            </button>
         </div>
       </div>
     </div>
@@ -56,7 +58,9 @@
             <button class="hashtag" type="button" disabled>#Cryptocurrency</button>
             <button class="hashtag" type="button" disabled>#Blockchain</button>
             <button class="hashtag" type="button" disabled>#Node</button>
-            <button id="special-button" type="button" class="btn">Learn More ➜</button>
+            <button type="button" class="btn" id="special-button">
+            <router-link to="/mining-game">Learn More ➜</router-link>
+            </button>
         </div>
       </div>
     </div>
@@ -106,10 +110,6 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-a {
-  color: #42b983;
-}
-
 .card {
   border: none; 
 }
@@ -254,5 +254,9 @@ img {
 #mining-game {
   width: 75%;
   height: auto;
+}
+
+.col-sm-3 {
+  margin: auto;
 }
 </style>
