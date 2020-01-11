@@ -22,7 +22,7 @@
       <div class="col-12 col-lg-6 p-5 d-flex">
         <p
           class="px-5 d-flex align-self-center"
-        >The Moyo approach is to use storytelling as a platform for approachable financial education. A story is at its core a controlled and directed sandbox of events and of forces intended to communicate a limited set of central ideas. To adapt the storytelling matrix for Moyo’s purposes, financial knowledge and the principles of wealth accrual are isolated to their very foundational levels, and communicated in focused, clear, objective-based learning delivery, followed up by the risk-free application of those principles in controlled sandbox trading environments with the goal of reinforcement of actionable insights (and only actionable insights).</p>
+        >To help with the stories and games, moyo utilizes avatars. These characters are meant to help to recharacterize finance as a whole, making the subject matter more approachable and less intimidating for end user. Each avatar has his or her own story, which allows users to identify with.</p>
       </div>
       <div
         class="col-9 mx-auto mb-5 mb-lg-0 col-lg-6 p-0"
