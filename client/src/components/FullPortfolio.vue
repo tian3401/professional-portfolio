@@ -7,7 +7,9 @@
       <div class="card-body">
         <h5 class="card-title">A financial education app centered around stories and mini-games</h5>
         <p class="card-text">An app reimagining the finance experience</p>
-        <router-link class="btn btn-primary" to="/moyo">Learn more</router-link>
+        <button type="button" class="btn" id="special-button">
+        <router-link to="/moyo_details">Learn More ➜</router-link>
+        </button>
       </div>
     </div>
     <br>
@@ -16,7 +18,9 @@
       <div class="card-body">
         <h5 class="card-title">A simplified game that uses cryptocurrency prices and cryptographic puzzles to mine fictious coins</h5>
         <p class="card-text">A node program that runs in your terminal.</p>
-        <router-link class="btn btn-primary" to="/mining-game">Learn more</router-link>
+        <button type="button" class="btn" id="special-button">
+        <router-link to="/mining-game">Learn More ➜</router-link>
+        </button>
       </div>
     </div>
     <br>
@@ -53,6 +57,12 @@ h1 {
   border-bottom: 2px solid #08AEEA;
   display: block;
   width: 100%;
-};
+}
+#special-button {
+  background-color: #8ee4af;
+  color: #05386b;
+  display: block;
+  margin: auto;
+}
 
 </style>
