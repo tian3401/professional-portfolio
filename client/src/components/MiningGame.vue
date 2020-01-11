@@ -1,12 +1,16 @@
 <template>
   <div>
     <h1>The Mining Game</h1>
-    <h2>The Purpose of the Game</h2>
-    <p>Praesent elementum facilisis leo vel fringilla est ullamcorper. Cras semper auctor neque vitae tempus quam pellentesque. Eu scelerisque felis imperdiet proin fermentum leo. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Massa placerat duis ultricies lacus sed turpis. Felis imperdiet proin fermentum leo vel. Vel pharetra vel turpis nunc eget. Netus et malesuada fames ac turpis egestas maecenas. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Cursus sit amet dictum sit amet. Nunc lobortis mattis aliquam faucibus. Sodales ut etiam sit amet nisl purus in. Facilisis leo vel fringilla est ullamcorper eget. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Morbi blandit cursus risus at ultrices mi.</p>
+    <h2> Overview of the Game</h2>
+    <p>The game is very simplistic in nature; the program selects a random cryptocurrency and ask you to predict whether the price will go up or down in a given time frame. After you your prediction, the program will access whether your prediction is correct or incorrect. If you are able to predict correctly, you are given a miner. The miner then tries to solve a similar cryptographic puzzle that is used in mining crpytocurrency in order to mine fictious coins.</p>
     <h2>Key Insights</h2>
-    <p>Praesent elementum facilisis leo vel fringilla est ullamcorper. Cras semper auctor neque vitae tempus quam pellentesque. Eu scelerisque felis imperdiet proin fermentum leo. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Massa placerat duis ultricies lacus sed turpis. Felis imperdiet proin fermentum leo vel. Vel pharetra vel turpis nunc eget. Netus et malesuada fames ac turpis egestas maecenas. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Cursus sit amet dictum sit amet. Nunc lobortis mattis aliquam faucibus. Sodales ut etiam sit amet nisl purus in. Facilisis leo vel fringilla est ullamcorper eget. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Morbi blandit cursus risus at ultrices mi.</p>
+    <p>This project has helped me understand what exactly is a cryptographic puzzle and how it is implemented in blockchains.</p>
     <h2>The Challenges</h2>
-    <p>Praesent elementum facilisis leo vel fringilla est ullamcorper. Cras semper auctor neque vitae tempus quam pellentesque. Eu scelerisque felis imperdiet proin fermentum leo. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Massa placerat duis ultricies lacus sed turpis. Felis imperdiet proin fermentum leo vel. Vel pharetra vel turpis nunc eget. Netus et malesuada fames ac turpis egestas maecenas. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Cursus sit amet dictum sit amet. Nunc lobortis mattis aliquam faucibus. Sodales ut etiam sit amet nisl purus in. Facilisis leo vel fringilla est ullamcorper eget. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Morbi blandit cursus risus at ultrices mi.</p>
+    <ul>Some key challenges when working on this project include: 
+      <li>Handling multiple asychronous calls to obtain crypto prices from CryptoCompare's application programming interface</li> 
+      <li>Understanding and implementing nonces and hashes when implementing the cryptographic puzzle</li>
+      <li>Modularizing the codebase</li>
+    </ul>
   </div>
 </template>
 
