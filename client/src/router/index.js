@@ -6,6 +6,7 @@ import Portfolio from '@/components/FullPortfolio'
 import Resume from '@/components/Resume'
 import Moyo from '@/components/Moyo'
 import MiningGame from '@/components/MiningGame'
+import MoyoDetails from '@/components/MoyoDetails'
 
 Vue.use(Router)
 
@@ -43,6 +44,15 @@ export default new Router({
       name: 'moyo',
       components: {
         default: Moyo,
+        Nav: Nav
+        
+      }
+    },
+    {
+      path: '/moyo_details',
+      name: 'moyo_details',
+      components: {
+        default: MoyoDetails,
         Nav: Nav
         
       }
