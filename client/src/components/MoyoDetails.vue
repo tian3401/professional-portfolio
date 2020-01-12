@@ -20,7 +20,7 @@
       <div class="col-12 col-lg-6 p-5 d-flex">
         <p
           class="px-5 d-flex align-self-center"
-        >To help with the stories and games, moyo utilizes avatars. These characters are meant to help to recharacterize finance as a whole, making the subject matter more approachable and less intimidating for end user. Each avatar has his or her own story, which allows users to identify with.</p>
+        >To help with the stories and games, moyo utilizes avatars. These characters are meant to help to recharacterize finance as a whole, making the subject matter more approachable and less intimidating for end user. Each avatar has his or her own story, which enables a deeper connection between users and these characters.</p>
       </div>
       <div
         class="col-9 mx-auto mb-5 mb-lg-0 col-lg-6 p-0"
@@ -31,7 +31,7 @@
       <div class="col-12 mx-auto p-5 d-flex">
         <p
           class="px-5 d-flex align-self-center emphasis-text"
-        >Finance is a part of everyone's life and impact the decisions we make. moyo can help take the first step in a person's financial journey.</p>
+        >Finance is a part of everyone's life and impact the decisions we make. moyo can help a person take the first step in a person's financial journey.</p>
       </div>
     </div>
     <div class="row bg-white mb-4">
