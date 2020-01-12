@@ -51,7 +51,7 @@
         <div class="col-sm-9 card">
           <h1 class="card-title" style="color: black">Mining Game - in progress</h1>
           <div class="card-body">
-            <img id="mining-game" src="@/assets/miningGame.png" alt="miningGame-code">
+            <img id="mining-game" src="@/assets/img/miningGame.png" alt="miningGame-code">
           </div>
         </div>
         <div class="col-sm-3">

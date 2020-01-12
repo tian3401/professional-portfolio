@@ -25,7 +25,7 @@
       <h5 class="card-header">The Mining Game</h5>
       <div class="row">
         <div class="col-sm-6">
-          <img src="..//assets/SVG/profile_image.jpg" class="card-img-top">
+          <img src="..//assets/img/miningGame.png" class="card-img-top">
         </div>
         <div class="col-sm-6">
           <div class="card-body">

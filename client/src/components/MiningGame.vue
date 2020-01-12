@@ -10,11 +10,11 @@
     <div class="row mt-5 bg-white mb-4">
       <div
         class="col-sm-6"
-        :style="{ 'min-height': '400px', 'background-image': 'url(\'' + require('@/assets/img/barista_creative_notes.png') + '\')', 'background-size': 'cover', 'background-repeat': 'no-repeat', 'background-position': 'left' }"
+        :style="{ 'min-height': '400px', 'background-image': 'url(\'' + require('@/assets/img/minerInquirer.png') + '\')', 'background-size': 'cover', 'background-repeat': 'no-repeat', 'background-position': 'top' }"
       ></div>
       <div class="col-12 col-lg-6 p-5 d-flex">
         <p class="px-5 d-flex align-self-center">
-          The game is very simplistic in nature; the program selects a random cryptocurrency and ask you to predict whether the price will go up or down in a given time frame. After you your prediction, the program will access whether your prediction is correct or incorrect. If you are able to predict correctly, you are given a miner. The miner then tries to solve a similar cryptographic puzzle that is used in mining crpytocurrency in order to mine fictious coins.
+          This underlying goal of the game is to accurately predict the direction of a given cryptocurrency asset. With every successful prediction, the player is given an additional miner, who mines coins the same way miners mine a blockchain. Currently the game is very basic, but I am constantly working to update features and improve the user experience. I eventually want to bring this onto a mobile platform with a nice graphic user interface. 
         </p>
       </div>
     </div>
@@ -24,27 +24,30 @@
       <div class="col-12 col-lg-6 p-5 d-flex">
         <p
         class="px-5 d-flex align-self-center"
-        >This project has helped me understand what exactly is a cryptographic puzzle and how it is implemented in blockchains.</p>
+        >Working on this game has helped me to solidify my understanding of the cryptographic puzzle that is used in blockchain technology. I realized that the cryptographic puzzle is a game of chance, where having more processing power helps your odds, but does not guaranteed you will be choosen to add to the blockchain. 
+        <br>
+        <br>
+        Additionally, blockchain heavily uses hashes throughout its implementation, because of its attractive features of immutability and deterministic nature. Overall, I've enjoyed using the same technologies that blockchain uses and have come away with appreciation of the future applications of such a technology.</p>
       </div>
       <div
         class="col-9 mx-auto mb-5 mb-lg-0 col-lg-6 p-0"
-        :style="{ 'min-height': '400px', 'background-image': 'url(\'' + require('@/assets/SVG/neos-moyo-website.svg') + '\')', 'background-size': 'cover', 'background-repeat': 'no-repeat' }"
+        :style="{ 'min-height': '400px', 'background-image': 'url(\'' + require('@/assets/img/hashCalculations.png') + '\')', 'background-size': 'cover', 'background-repeat': 'no-repeat', 'background-position': 'top' }"
       ></div>
     </div>
     <h1>The Challenges</h1>
     <div class="row mt-5 bg-white mb-4">
       <div
         class="col-sm-6"
-        :style="{ 'min-height': '400px', 'background-image': 'url(\'' + require('@/assets/img/barista_creative_notes.png') + '\')', 'background-size': 'cover', 'background-repeat': 'no-repeat', 'background-position': 'left' }"
+        :style="{ 'min-height': '400px', 'background-image': 'url(\'' + require('@/assets/img/miningCoins.png') + '\')', 'background-size': 'cover', 'background-repeat': 'no-repeat', 'background-position': 'bottom' }"
       ></div>
       <div class="col-12 col-lg-6 p-5 d-flex">
         
         <p class="px-5 d-flex align-self-center"> 
           <ul>
-          <p>Some key challenges when working on this project include:</p><br>
-          <li>Handling multiple asychronous calls to obtain crypto prices from CryptoCompare's application programming interface</li><br>
+          <p>Some key challenges:</p><br>
+          <li>Handling multiple asychronous calls triggered at different times to obtain crypto prices from CryptoCompare's application programming interface</li><br>
           <li>Understanding and implementing nonces and hashes when implementing the cryptographic puzzle</li><br>
-          <li>Modularizing the codebase</li><br>
+          <li>Modularizing the codebase in a meaningful way</li><br>
           </ul>
         </p>
       </div>
