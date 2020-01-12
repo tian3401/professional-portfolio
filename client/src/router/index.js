@@ -4,7 +4,6 @@ import Home from '@/components/Home'
 import Nav from '@/components/Nav'
 import Portfolio from '@/components/FullPortfolio'
 import Resume from '@/components/Resume'
-import Moyo from '@/components/Moyo'
 import MiningGame from '@/components/MiningGame'
 import MoyoDetails from '@/components/MoyoDetails'
 
@@ -35,15 +34,6 @@ export default new Router({
       name: 'resume',
       components: {
         default: Resume,
-        Nav: Nav
-        
-      }
-    },
-    {
-      path: '/moyo',
-      name: 'moyo',
-      components: {
-        default: Moyo,
         Nav: Nav
         
       }
