@@ -44,7 +44,7 @@
       <h5 class="card-header">Time Value of Money Calculator</h5>
       <div class="row">
         <div class="col-sm-6">
-          <img src="..//assets/SVG/profile_image.jpg" class="card-img-top">
+          <img src="..//assets/img/tmvCalculator.png" class="card-img-top">
         </div>
         <div class="col-sm-6">
           <div class="card-body">
@@ -87,8 +87,8 @@
         <div class="col-sm-6">
           <div class="card-body">
           </div>
-          <h5 class="card-title">An implementation of a simple blockchain using Python</h5>
-          <p class="card-text">This blockchain is done completely in Python</p>
+          <h5 class="card-title">An implementation of a simple blockchain</h5>
+          <p class="card-text">Implemented using only Python</p>
           <button type="button" class="btn" id="special-button">
           <router-link to="/">Learn More ➜</router-link>
           </button>
@@ -107,7 +107,7 @@
           <div class="card-body">
           </div>
           <h5 class="card-title">This is a terminal console game where the user has to break the code to advance levels.</h5>
-          <p class="card-text">The game uses C++.</p>
+          <p class="card-text">Implemented in C++</p>
           <button type="button" class="btn" id="special-button">
           <router-link to="/">Learn More ➜</router-link>
           </button>
