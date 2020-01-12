@@ -127,6 +127,7 @@ li {
 button {
   background-color: #379683;
   color: #edf5e1;
+  padding: none;
 }
 
 img {
@@ -258,5 +259,10 @@ img {
 
 .col-sm-3 {
   margin: auto;
+}
+
+button a {
+  display: block;
+  padding: 6px 6px;
 }
 </style>
