@@ -6,6 +6,7 @@ import Portfolio from '@/components/FullPortfolio'
 import Resume from '@/components/Resume'
 import MiningGame from '@/components/MiningGame'
 import MoyoDetails from '@/components/MoyoDetails'
+import TvmCalculator from '@/components/TvmCalculator'
 
 Vue.use(Router)
 
@@ -55,7 +56,16 @@ export default new Router({
         Nav: Nav
         
       }
-    }
+    },
+    {
+      path: '/tvm-calculator',
+      name: 'tvm-calculator',
+      components: {
+        default: TvmCalculator,
+        Nav: Nav
+        
+      }
+    },
   ],
   scrollBehavior() {
     return {x: 0, y: 0}

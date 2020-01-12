@@ -44,7 +44,7 @@
       <h5 class="card-header">Time Value of Money Calculator</h5>
       <div class="row">
         <div class="col-sm-6">
-          <img src="..//assets/img/tmvCalculator.png" class="card-img-top">
+          <img src="..//assets/img/tvmCalculator.png" class="card-img-top">
         </div>
         <div class="col-sm-6">
           <div class="card-body">
@@ -52,7 +52,7 @@
           <h5 class="card-title">A calculator that helps you calculate how much money will be worth at a certain point in time.</h5>
           <p class="card-text">This is done in Vue.js</p>
           <button type="button" class="btn" id="special-button">
-          <router-link to="/">Learn More ➜</router-link>
+          <router-link to="/tvm-calculator">Learn More ➜</router-link>
           </button>
         </div>
       </div>
@@ -62,16 +62,16 @@
     <div class="card">
       <h5 class="card-header">Developer Flash Cards</h5>
       <div class="row">
-        <div class="col-sm-6">
+        <!-- <div class="col-sm-6">
           <img src="..//assets/SVG/profile_image.jpg" class="card-img-top">
-        </div>
+        </div> -->
         <div class="col-sm-6">
           <div class="card-body">
           </div>
           <h5 class="card-title">This was a project I did in collaboration with some fellow developers during my time at UC Berkeley's fullstack course.</h5>
           <p class="card-text">This project uses EJS templating and a mySQL database.</p>
           <button type="button" class="btn" id="special-button">
-          <router-link to="/">Learn More ➜</router-link>
+            <a href="https://github.com/lawrenceslng/Web-Dev-Cards" target="_blank">Review Github Code ➜</a>
           </button>
         </div>
       </div>
@@ -81,16 +81,16 @@
     <div class="card">
       <h5 class="card-header">Matty Blockchain</h5>
       <div class="row">
-        <div class="col-sm-6">
+        <!-- <div class="col-sm-6">
           <img src="..//assets/SVG/profile_image.jpg" class="card-img-top">
-        </div>
+        </div> -->
         <div class="col-sm-6">
           <div class="card-body">
           </div>
           <h5 class="card-title">An implementation of a simple blockchain</h5>
           <p class="card-text">Implemented using only Python</p>
           <button type="button" class="btn" id="special-button">
-          <router-link to="/">Learn More ➜</router-link>
+            <a href="https://github.com/tian3401/matty-blockchain" target="_blank">Review Github Code ➜</a>
           </button>
         </div>
       </div>
@@ -100,16 +100,16 @@
     <div class="card">
       <h5 class="card-header">A fun Spy Game</h5>
       <div class="row">
-        <div class="col-sm-6">
+        <!-- <div class="col-sm-6">
           <img src="..//assets/SVG/profile_image.jpg" class="card-img-top">
-        </div>
+        </div> -->
         <div class="col-sm-6">
           <div class="card-body">
           </div>
           <h5 class="card-title">This is a terminal console game where the user has to break the code to advance levels.</h5>
           <p class="card-text">Implemented in C++</p>
           <button type="button" class="btn" id="special-button">
-          <router-link to="/">Learn More ➜</router-link>
+            <a href="https://github.com/tian3401/mySpy_Game" target="_blank">Review Github Code ➜</a>
           </button>
         </div>
       </div>
