@@ -22,7 +22,7 @@
     </div>
     <br>
     <div class="card">
-      <h5 class="card-header">The mining game</h5>
+      <h5 class="card-header">The Mining Game</h5>
       <div class="row">
         <div class="col-sm-6">
           <img src="..//assets/SVG/profile_image.jpg" class="card-img-top">
@@ -41,7 +41,7 @@
     </div>
     <br>
         <div class="card">
-      <h5 class="card-header">Project 3</h5>
+      <h5 class="card-header">Time Value of Money Calculator</h5>
       <div class="row">
         <div class="col-sm-6">
           <img src="..//assets/SVG/profile_image.jpg" class="card-img-top">
@@ -49,8 +49,8 @@
         <div class="col-sm-6">
           <div class="card-body">
           </div>
-          <h5 class="card-title">A simplified game that uses cryptocurrency prices and cryptographic puzzles to mine fictious coins</h5>
-          <p class="card-text">A node program that runs in your terminal.</p>
+          <h5 class="card-title">A calculator that helps you calculate how much money will be worth at a certain point in time.</h5>
+          <p class="card-text">This is done in Vue.js</p>
           <button type="button" class="btn" id="special-button">
           <router-link to="/">Learn More ➜</router-link>
           </button>
@@ -60,7 +60,7 @@
     </div>
     <br>
     <div class="card">
-      <h5 class="card-header">Project 4</h5>
+      <h5 class="card-header">Developer Flash Cards</h5>
       <div class="row">
         <div class="col-sm-6">
           <img src="..//assets/SVG/profile_image.jpg" class="card-img-top">
@@ -68,8 +68,8 @@
         <div class="col-sm-6">
           <div class="card-body">
           </div>
-          <h5 class="card-title">A simplified game that uses cryptocurrency prices and cryptographic puzzles to mine fictious coins</h5>
-          <p class="card-text">A node program that runs in your terminal.</p>
+          <h5 class="card-title">This was a project I did in collaboration with some fellow developers during my time at UC Berkeley's fullstack course.</h5>
+          <p class="card-text">This project uses EJS templating and a mySQL database.</p>
           <button type="button" class="btn" id="special-button">
           <router-link to="/">Learn More ➜</router-link>
           </button>
@@ -79,7 +79,7 @@
     </div>
     <br>
     <div class="card">
-      <h5 class="card-header">Project 5</h5>
+      <h5 class="card-header">Matty Blockchain</h5>
       <div class="row">
         <div class="col-sm-6">
           <img src="..//assets/SVG/profile_image.jpg" class="card-img-top">
@@ -87,8 +87,8 @@
         <div class="col-sm-6">
           <div class="card-body">
           </div>
-          <h5 class="card-title">A simplified game that uses cryptocurrency prices and cryptographic puzzles to mine fictious coins</h5>
-          <p class="card-text">A node program that runs in your terminal.</p>
+          <h5 class="card-title">An implementation of a simple blockchain using Python</h5>
+          <p class="card-text">This blockchain is done completely in Python</p>
           <button type="button" class="btn" id="special-button">
           <router-link to="/">Learn More ➜</router-link>
           </button>
@@ -98,7 +98,7 @@
     </div>
     <br>
     <div class="card">
-      <h5 class="card-header">Project 6</h5>
+      <h5 class="card-header">A fun Spy Game</h5>
       <div class="row">
         <div class="col-sm-6">
           <img src="..//assets/SVG/profile_image.jpg" class="card-img-top">
@@ -106,8 +106,8 @@
         <div class="col-sm-6">
           <div class="card-body">
           </div>
-          <h5 class="card-title">A simplified game that uses cryptocurrency prices and cryptographic puzzles to mine fictious coins</h5>
-          <p class="card-text">A node program that runs in your terminal.</p>
+          <h5 class="card-title">This is a terminal console game where the user has to break the code to advance levels.</h5>
+          <p class="card-text">The game uses C++.</p>
           <button type="button" class="btn" id="special-button">
           <router-link to="/">Learn More ➜</router-link>
           </button>
