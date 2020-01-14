@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-8" id="description">        
-        <p id="description-text">"Unlike most developers and software engineers, I found my passion for programming at a later stage in life. Although my career path as a developer has not been a direct one, the journey that I have travelled isn't one I would trade with anyone else. This journey has shaped my approach to programming - a simple but creative style and perspective. Simply put, creating and innovating is what I love to do."</p>
+        <p id="description-text">"Programming has helped me appreciate the great benefits that technology brings to our lives and allows me to use my imagination daily. Throughout my career, I've had plenty of memorable experiences and opportunities, but nothing is quite like the thrill of creating something in code. Simply put, creating and innovating is what I love to do."</p>
       </div>
       <div class="col-sm-2"></div>
     </div>
