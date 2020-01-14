@@ -45,7 +45,7 @@
         <p class="px-5 d-flex align-self-center"> 
           <ul>
           <p>Some key challenges:</p><br>
-          <li>Handling multiple asychronous calls triggered at different times to obtain crypto prices from CryptoCompare's application programming interface</li><br>
+          <li>Handling and utilizing multiple asychronous calls triggered at different times to obtain crypto prices from CryptoCompare's application programming interface</li><br>
           <li>Understanding and implementing nonces and hashes when implementing the cryptographic puzzle</li><br>
           <li>Modularizing the codebase in a meaningful way</li><br>
           </ul>
